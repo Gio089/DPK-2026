@@ -73,7 +73,7 @@ int main (int argc, char *argv[]) {
         }
 
         // 4. Cek Diagonal Terbalik (/)
-        if (A[0][2] == A[1][1] && A[1][1] == A[2][0] && A[0][2] != ' ') { // Perbaikan tipis pada indeks diagonal
+        if (A[0][2] == A[1][1] && A[1][1] == A[2][0] && A[0][2] != ' ') { 
             ada_pemenang = 1;
             pemenang_simbol = A[0][2];
         }
