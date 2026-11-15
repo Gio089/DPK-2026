@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -105,9 +104,7 @@ void input_krs(KRS *krs, int jumlah_krs,
 }
 
 int main() {
-
     int jumlah_mk, jumlah_mhs, jumlah_krs;
-
 
     // INPUT MATA KULIAH
     printf("=== INPUT DATA MATA KULIAH ===\n");
